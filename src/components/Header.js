@@ -21,7 +21,9 @@ Header.defaultProps = {
 }
 
 Header.propTypes = {
-  text: PropTypes.string.isRequired //like typescript and wouldnt be needed if using typescript
+  text: PropTypes.string.isRequired, //like typescript and wouldnt be needed if using typescript
+  bgColor: PropTypes.string,
+  textColor: PropTypes.string,
 }
 
 export default Header
