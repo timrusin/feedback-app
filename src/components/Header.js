@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types' //impt
 
-const Header = ( {text} ) => {
+const Header = ( {text, bgColor, textColor} ) => {
 
   const headerStyles = { //another way fo doing in-line styles, passed in with single {} in header bellow, would need double {{}} if doing actual in-line
-    backgroundColor: "blue",
-    color: "red",
+    backgroundColor: bgColor,
+    color: textColor,
   }
 
   return (
