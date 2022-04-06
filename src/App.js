@@ -12,7 +12,7 @@ function App() {
 
  const addFeedback = (newFeedback) => {
     newFeedback.id = id
-    console.log(newFeedback)
+    setFeedback([newFeedback, ...feedback])//this is adding the newFeedback as well as spreading out all of the previous feedback in an array
  }
 
  const deleteFeedback = (id) => {
